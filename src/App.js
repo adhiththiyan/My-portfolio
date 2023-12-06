@@ -8,6 +8,8 @@ import Project from "./routers/Project";
 function App() {
   return (
     <div>
+    <Home/>
+    <Project/>
       <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/project" element={<Project/>}/>
